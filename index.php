@@ -87,9 +87,7 @@ if($config_==false){
  } 
 ?>
 <div id="showcoords_position"></div>
- <?php 
-      include("add.php") ; 
- ?>
+ 
  <script src="js.js"></script>
 
  
