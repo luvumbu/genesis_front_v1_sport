@@ -1,0 +1,20 @@
+<div id="app_section"></div>
+
+<div onclick="deconexion()">
+    Deconnexion 
+</div>
+<script>
+     
+     function deconexion() {
+        Ajax("app_section","pages/deconnexion.php");
+        const myTimeout = setTimeout(myGreeting, 250);
+        
+     }
+
+
+     
+
+function myGreeting() {
+    location.reload(); 
+}
+</script>
